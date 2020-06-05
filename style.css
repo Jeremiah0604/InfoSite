@@ -1,0 +1,55 @@
+.WholeContainer { 
+    /* FOR DEVELOPMENT PURPOSES */
+    background-color: rgba(230, 18, 18, 0.644);
+    height: 100vh;
+}
+
+.HeaderNav {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 10vh;
+}
+
+
+.NavigationBar {
+    margin-left: 60%;
+    align-self: center;
+    /* FOR DEVELOPMENT PURPOSES */
+    /* border: 1px solid palegoldenrod; */
+}
+.NavigationLinks {
+    color: white;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0px 40px;
+}
+
+.WelcomeContainer {
+    background-color: rgb(92, 91, 92);
+    height: 90vh;
+}
+
+.HeaderWelcome {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+}
+
+.WelcomeText {
+    margin-top: 15%;
+    color: white;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.SiteTitleText {
+    margin-top: 1%;
+    color: white;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoSite - Apollo / Jeremiah</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="/misc-styles/misc.css">
+    <link rel="import" href="/aboutPage/about.html">
+    <link rel="import" href="/shopPage/shop.html">
+    <!-- Main CSS File ^ -->
+</head>
+<body oncontextmenu="return false;">
+    <section class="WholeContainer">
+        <!-- Container For Whole Website -->
+        <header class="HeaderNav">
+            <!-- Header Navigation Markup -->
+            <Nav class="NavigationBar">
+                <a class="NavigationLinks" href="index.html">Home</a>
+                <a class="NavigationLinks" href="aboutPage/about.html">About</a>
+                <a class="NavigationLinks" href="/shopPage/shop.html">Shop</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Misc
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a class="NavigationLinks"href="https://discord.gg/rPpdfhC">Discord</a>
+                      <a class="NavigationLinks"href="https://github.com/Jeremiah0604">GitHub</a>
+                      <a class="NavigationLinks" href = "mailto:jeremiahlampher1@gmail.com?subject = Feedback&body = Message">
+                        Email
+                        </a>
+                    </div>
+                  </div>
+            </Nav>
+        </header> <!-- End of HeaderNavigation -->
+        <section class="WelcomeContainer">
+        <div class="HeaderWelcome"> <!-- Whole Welcome Header Container -->
+            <h1 class="WelcomeText">Welcome To</h1>
+            <!-- Welcome Text -->
+            <h2 class="SiteTitleText">Apollo Development</h2>
+            <!-- Website Name Goes HERE -->
+        </div> <!-- End of Header Welcome Container -->
+    </section>
+    </section>
+</body>
+
+<script>
+    document.onkeydown = function(e) {
+  if(event.keyCode == 123) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+     return false;
+  }
+  if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+     return false;
+  }
+}
+</script>
+</html>
